@@ -30,7 +30,7 @@ API_METHODS = {
         'load_balances': ('POST', '{id}/load_balances')
     },
     'deals': {
-        '': ('GET', ''),
+        '': ('GET', '{id}'),
         'update_max_safety_orders': ('POST', '{id}/update_max_safety_orders'),
         'panic_sell': ('POST', '{id}/panic_sell'),
         'cancel': ('POST', '{id}/cancel'),
